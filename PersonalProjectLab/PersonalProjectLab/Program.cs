@@ -18,7 +18,7 @@ namespace PersonalProjectLab
 
                 if (input == "Fahrenheit")
                 {
-                    Console.WriteLine("What unit would you like to convert to? [Fahrenheit] [Celsius] [Kelvin]");
+                    Console.WriteLine("What unit would you like to convert to? [Celsius] [Kelvin]");
                     conversion = (Console.ReadLine());
 
                     if (conversion == "Celsius")
@@ -46,7 +46,7 @@ namespace PersonalProjectLab
 
                 if (input == "Celsius")
                 {
-                    Console.WriteLine("What unit would you like to convert to? [Fahrenheit] [Celsius] [Kelvin]");
+                    Console.WriteLine("What unit would you like to convert to? [Fahrenheit] [Kelvin]");
                     conversion = (Console.ReadLine());
 
                     if (conversion == "Fahrenheit")
@@ -74,7 +74,7 @@ namespace PersonalProjectLab
 
                 if (input == "Kelvin")
                 {
-                    Console.WriteLine("What unit would you like to convert to? [Fahrenheit] [Celsius] [Kelvin]");
+                    Console.WriteLine("What unit would you like to convert to? [Fahrenheit] [Celsius]");
                     conversion = (Console.ReadLine());
 
                     if (conversion == "Fahrenheit")
